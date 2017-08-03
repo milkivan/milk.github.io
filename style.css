@@ -1,0 +1,540 @@
+@font-face {
+	font-family: 'Roboto-Light';
+	src: url(fonts/Roboto-Light.ttf)
+}
+
+@font-face {
+	font-family: 'Roboto-Thin';
+	src: url(fonts/Roboto-Thin.ttf)
+}
+
+@font-face {
+	font-family: 'Roboto-BlackItalic';
+	src: url(fonts/Roboto-BlackItalic.ttf)
+}
+
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url(fonts/Roboto-Regular.ttf)
+}
+
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url(fonts/Roboto-Bold.ttf)
+}
+
+@font-face {
+	font-family: 'Roboto-Black';
+	src: url(fonts/Roboto-Black.ttf)
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	float: left;
+	min-width: 100%;
+}
+
+/*Оформление header*/
+header {
+	margin: 0 auto;
+	width: 1172px;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 134px 0 134px;
+}
+
+.social {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 98px;
+	height: 15px;
+	margin-top: 33px;
+}
+
+.twitter {
+	width: 13px;
+	height: 12px;
+	background-image: url(img/twitter_top.png);
+}
+
+.facebook {
+	width: 8px;
+	height: 15px;
+	background-image: url(img/fb_top.png);
+}
+
+.icloud {
+	width: 20px;
+	height: 10px;
+	background-image: url(img/icl_top.png);
+}
+
+.logo {
+	width: 36px;
+	height: 50px;
+	background-image: url(img/logo.png);
+	margin-top: 15px;
+}
+
+.menu {
+	width: 22px;
+	height: 19px;
+	margin-top: 30px;
+	background-image: url(img/menu.png);
+}
+
+/*Оформление главной страницы*/
+main {
+	margin: 0 auto;
+	width: 100%;
+	height: 820px;
+	background: url(img/background.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+}
+
+.logo_text {
+	margin: 0 auto;
+	display: block;
+	width: 889px;
+	height: 299px;
+	background: url(img/jump.png) no-repeat center;
+}
+
+/*Оформление основного контекта страницы (4 прямоугольника)*/
+.content {
+	width: 1440px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.album {
+	width: 720px;
+	height: 480px;
+}
+
+/*левый верхний блок*/
+h2 {
+	width: 450px;
+	height: 36px;
+	font-family: 'Roboto-Thin', "Arial", sans-serif;
+	color:  #242424;
+	font-size: 48px;
+	font-weight: 100;
+	line-height: 30px;
+	text-align: left;
+}
+
+.featured h2 {
+	margin-top: 119px;
+	margin-left: 135px;
+}
+
+.featured_text {
+	display: block;
+	width: 429px;
+	height: 78px;
+	font-family: 'Roboto-Light', "Arial", sans-serif;
+	color:  #959595;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	margin-top: 29px;
+	margin-left: 135px;
+}
+
+.itunes_text {
+	font-family: 'Roboto-Light', "Arial", sans-serif;
+	color:  #1ba3d9;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	text-decoration: underline;
+	text-align: left;
+}
+
+.googleplay_text{
+	font-family: 'Roboto-Light', "Arial", sans-serif;
+	color:  #1ba3d9;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	text-align: left;
+}
+
+.app_store {
+	display: block;
+	width: 100px;
+	height: 31px;
+	background-image: url(img/apple.jpg);
+	margin-top: 56px;
+	margin-left: 135px;
+	float: left;
+}
+
+.google_play {
+	display: block;
+	width: 100px;
+	height: 31px;
+	background-image: url(img/google.jpg);
+	float: left;
+	margin-top: 56px;
+	margin-left: 10px;
+}
+
+
+/*правый верхний блок*/
+.img {
+	display: flex;
+	align-items: center;
+	background: url(img/cover.png) no-repeat,
+							url(img/webwill.jpg) no-repeat;
+	background-size: cover;
+}
+
+.disc {
+	margin: 0 auto;
+	width: 370px;
+  height: 270px;
+	background: url(img/beat.png) left no-repeat,
+							url(img/disc.png) right no-repeat;
+}
+
+/*левый нижний блок*/
+
+
+/*правый нижний блок*/
+.text h2 {
+	margin-top: 119px;
+	margin-left: 114px;
+}
+
+.thebeat_text {
+	display: block;
+	width: 468px;
+	height: 78px;
+	font-family: 'Roboto-Light', "Arial", sans-serif;
+	color:  #959595;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	text-align: left;
+	margin-left: 116px;
+	margin-top: 18px;
+}
+
+.itunes_link {
+	font-family: 'Roboto-Light', "Arial", sans-serif;
+	color:  #1ba3d9;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	text-align: left;
+}
+
+.followus_text {
+	display: block;
+	font-family: 'Roboto-Bold', "Arial", sans-serif;
+	color:  #959595;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: left;
+	margin-left: 115px;
+	margin-top: 47px;
+}
+
+.follow_us {
+	margin-left: 115px;
+	margin-top: 20px;
+	width: 242px;
+	height: 13px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.follow {
+	
+	display: block;
+	font-family: 'Roboto-Regular', "Arial", sans-serif;
+	color:  #959595;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	text-decoration: none;
+}
+
+.follow span {
+	display: block;
+	font-family: 'Roboto-Regular', "Arial", sans-serif;
+	color:  #959595;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+/*Оформление блока Времени*/
+.time {
+	margin: 0 auto;
+	width: 1440px;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.next_event_text {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 550px;
+	margin-left: 131px;
+}
+
+.next_event_time {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 151px;
+}
+
+.top_text_box {
+	font-family: 'Roboto-Thin', "Arial", sans-serif;
+	color:  #242424;
+	font-size: 48px;
+	font-weight: 100;
+	line-height: 30px;
+	text-align: center;
+	width: 282px;
+	height: 34px;
+	margin-bottom: 30px;
+}
+
+.bottom_text_box {
+	width: 330px;
+	height: 16px;
+	font-family: 'Roboto-Light', "Arial", sans-serif;
+	color:  #959595;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center;
+}
+
+.top_time_box {
+	font-family: 'Roboto-Thin', "Arial", sans-serif;
+	color:  #242424;
+	font-size: 48px;
+	font-weight: 100;
+	line-height: 30px;
+	text-align: center;
+
+	height: 34px;
+	margin-bottom: 30px;
+}
+
+.bottom_time_box {
+	font-family: 'Roboto-Light', "Arial", sans-serif;
+	color:  #959595;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center;
+	width: 60px;
+	height: 14px;
+}
+
+.last {
+	margin-right: 197px;
+}
+
+/*Оформление блока */
+.instagram {
+	margin: 0 auto;
+	width: 1440px;
+	height: 480px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	position: relative;
+}
+
+.button_ins {
+	margin: 0 auto;
+	display: block;
+	width: 370px;
+	height: 180px;
+	background: -webkit-linear-gradient(0deg, #3359ac 0%, #1ba3d9 100%);
+	background: -moz-linear-gradient(0deg, #3359ac 0%, #1ba3d9 100%);
+	background: -o-linear-gradient(0deg, #3359ac 0%, #1ba3d9 100%);
+	background: -ms-linear-gradient(0deg, #3359ac 0%, #1ba3d9 100%);
+	background: linear-gradient(90deg, #3359ac 0%, #1ba3d9 100%);
+	position: absolute;
+	top: 150px;
+	text-decoration: none;
+}
+
+.inst_logo {
+	width: 42px;
+	height: 42px;
+	margin: 32px auto;
+	display: block;
+}
+
+.instagram_text {
+	margin: 032px auto;
+	font-family: 'Roboto-Thin', "Arial", sans-serif;
+	color:  #ffffff;
+	font-size: 48px;
+	font-weight: 100;
+	line-height: 30px;
+	text-align: center;
+	width: 205px;
+	height: 44px;
+	display: block;
+}
+
+
+/*Оформление подвала*/
+footer {
+	margin: 0 auto;
+	width: 1440px;
+	height: 80px;
+}
+
+.logo_footer {
+	width: 36px;
+	height: 50px;
+	display: block;
+	background-image: url(img/logo_footer.png);
+	margin-left: 135px;
+	margin-top: 15px;
+	float: left;
+}
+
+.text_footer{
+	display: block;
+	width: 340px;
+	height: 14px;
+	font-family: 'Roboto-Light', "Arial", sans-serif;
+	color:  #959595;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 64px;
+	margin-top: 33px;
+	float: left;
+}
+
+.social_footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 99px;
+	height: 15px;
+	margin-right: 140px;
+	margin-top: 33px;
+	float: right;
+}
+
+.twitter_footer {
+	width: 13px;
+	height: 12px;
+	background-image: url(img/twitter_footer.png);
+/*	margin-top: 1px;*/
+}
+
+.facebook_footer {
+	width: 8px;
+	height: 15px;
+	background-image: url(img/fb_footer.png);
+}
+
+.icloud_footer {
+	width: 20px;
+	height: 10px;
+	background-image: url(img/icl_footer.png);
+/*	margin-top: 2px;*/
+}
+
+.instagram_img {
+	width: 240px;
+	height: 240px;
+}
+
+.instagram_img:hover {
+	opacity: 0.8;
+	z-index: 1;
+}
+
+.button_ins:hover {
+	background: -webkit-linear-gradient(0deg, #111100 0%, #1ba3d9 100%);
+	background: -moz-linear-gradient(0deg, #111100 0%, #1ba3d9 100%);
+	background: -o-linear-gradient(0deg, #111100 0%, #1ba3d9 100%);
+	background: -ms-linear-gradient(0deg, #111100 0%, #1ba3d9 100%);
+	background: linear-gradient(90deg, #111100 0%, #1ba3d9 100%);
+}
+
+
+/*Инстраграм фото*/
+.img1 {
+	background-image: url(img/1img.png);
+}
+
+.img2 {
+	background-image: url(img/2img.png);
+}
+
+.img3 {
+	background-image: url(img/3img.png);
+}
+
+.img4 {
+	background-image: url(img/4img.png);
+}
+
+.img5 {
+	background-image: url(img/5img.png);
+}
+
+.img6 {
+	background-image: url(img/6img.png);
+}
+
+.img7 {
+	background-image: url(img/7img.png);
+}
+
+.img8 {
+	background-image: url(img/8img.png);
+}
+
+.img9 {
+	background-image: url(img/9img.png);
+}
+
+.img10 {
+	background-image: url(img/10img.jpg);
+}
+
+.img11 {
+	background-image: url(img/11img.png);
+}
+
+.img12 {
+	background-image: url(img/12img.png);
+}
