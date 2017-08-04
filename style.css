@@ -477,8 +477,7 @@ footer {
 }
 
 .instagram_img:hover {
-	opacity: 0.8;
-	z-index: 1;
+	transform: scale(1.1);
 }
 
 .button_ins:hover {
@@ -487,6 +486,7 @@ footer {
 	background: -o-linear-gradient(0deg, #111100 0%, #1ba3d9 100%);
 	background: -ms-linear-gradient(0deg, #111100 0%, #1ba3d9 100%);
 	background: linear-gradient(90deg, #111100 0%, #1ba3d9 100%);
+	transform: scale(1.05);
 }
 
 
